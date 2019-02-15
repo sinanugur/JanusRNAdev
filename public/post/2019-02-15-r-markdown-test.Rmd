@@ -1,15 +1,19 @@
 ---
-title: r markdown test
-author: ~
+title: "r markdown test""
+author: "SUU""
 date: '2019-02-15'
 slug: r-markdown-test
-categories: []
-tags: []
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
 authors: []
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
 
-```{r,echo=FALSE}
+
+```{r app,echo=FALSE}
 
 shinyAppDir("/home/sium/gitrepos/miRJanus/webapps/healthy",
 options = list(width = "100%")
