@@ -1,0 +1,20 @@
+---
+title: r markdown test
+author: ~
+date: '2019-02-15'
+slug: r-markdown-test
+categories: []
+tags: []
+authors: []
+---
+
+
+```{r,echo=FALSE}
+
+shinyAppDir("/home/sium/gitrepos/miRJanus/webapps/healthy",
+options = list(width = "100%")
+
+)
+
+```
+
