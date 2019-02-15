@@ -1,13 +1,19 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+date: '2015-07-23T21:13:14-05:00'
+tags:
+- R Markdown
+- plot
+- regression
+categories: R
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE,message=FALSE,warning=FALSE}
+
 knitr::opts_chunk$set(collapse = TRUE)
+require(shiny)
+require(shinythemes)
 ```
 
 # R Markdown
@@ -27,11 +33,21 @@ fit
 #asdasdasdasdasdasdasads
 #asdasdasdasd
 
-```{r app,echo=FALSE}
+```{r app,echo=FALSE,eval=FALSE}
 
-shinyAppDir("/home/sium/gitrepos/miRJanus/webapps/healthy",
+shiny::shinyAppDir("/home/sium/gitrepos/miRJanus/webapps/healthy",
 options = list(width = "100%")
 
 )
 
-``
+```
+
+
+```{r,fig.width=8,echo=FALSE,warning=FALSE,message=FALSE}
+
+knitr::include_url("https://sinanugur.shinyapps.io/healthy/")
+
+```
+
+
+
