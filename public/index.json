@@ -1,0 +1,50 @@
+[
+{
+	"uri": "/serum/",
+	"title": "Serum RNA dataset",
+	"tags": [],
+	"description": "",
+	"content": "Here you can access serum RNA dataset which contains expression information, and the traits that influence RNA expression with associated p-values and effect sizes.\n  Attachments   all_rna_tables.tsv  (1569 ko)    Click this link to open shiny web app in a new window or you can use the frame below.\n "
+},
+{
+	"uri": "/lung/",
+	"title": "Lung Cancer dataset",
+	"tags": [],
+	"description": "",
+	"content": " Lung Cancer results Find out how to create and organize your content quickly and intuitively.\n"
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": " small non-coding RNA project group Our Collabrators Contributors of Webpage .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @sinanugur 12 commits   "
+},
+{
+	"uri": "/",
+	"title": "JanusRNA Project",
+	"tags": [],
+	"description": "",
+	"content": " JanusRNA Project Background Cancer is the third-most common cause of death worldwide, the most common cause of death in men and women under the age of 70, and the second leading cause of death overall in Norway. Cancer development involves progressive accumulation of molecular changes in the genome and the epigenome. The challenges in cancer management are to succeed in early detection, to improve diagnostic precision, to offer an appropriate therapy and follow-up, all aimed at reducing suffering and prolonging survival.\nJanusRNA is an RNA sequencing (RNA-seq) project that investigates circulating RNA profiles of human serum to detect non-invasive early detection biomarkers of cancer, including lung, coleractal, testis etc.\nThe Janus Serum Bank (JSB) cohort is a population-based cancer research biobank containing serum samples from 318628 Norwegians.\n "
+},
+{
+	"uri": "/showcase/",
+	"title": "Showcase",
+	"tags": [],
+	"description": "",
+	"content": " TAT by OVH "
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
