@@ -4,27 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.54.0" />
-    <meta name="description" content="Documentation for Hugo Learn Theme">
-<meta name="author" content="Mathieu Cornic">
+    <meta name="description" content="JanusRNA datasets">
+<meta name="author" content="Sinan U. Umu, PhD">
 
-    <link rel="shortcut icon" href="/images/logo-no.svg" type="image/x-icon" />
-
-    <title>Serum RNA dataset :: Documentation for Hugo Learn Theme</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Serum RNA dataset :: JanusRNA project datasets</title>
 
     
-    <link href="/css/nucleus.css?1550497771" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1550497771" rel="stylesheet">
-    <link href="/css/hybrid.css?1550497771" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1550497771" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1550497771" rel="stylesheet">
-    <link href="/css/auto-complete.css?1550497771" rel="stylesheet">
-    <link href="/css/theme.css?1550497771" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1550497771" rel="stylesheet">
+    <link href="/css/nucleus.css?1550504126" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1550504126" rel="stylesheet">
+    <link href="/css/hybrid.css?1550504126" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1550504126" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1550504126" rel="stylesheet">
+    <link href="/css/auto-complete.css?1550504126" rel="stylesheet">
+    <link href="/css/theme.css?1550504126" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1550504126" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1550497771" rel="stylesheet">
+      <link href="/css/theme-mine.css?1550504126" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1550497771"></script>
+    <script src="/js/jquery-2.x.min.js?1550504126"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1550497771"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1550497771"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1550504126"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1550504126"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1550497771"></script>
+<script type="text/javascript" src="/js/search.js?1550504126"></script>
 
     
   </div>
@@ -132,6 +132,10 @@
               </li>
           
               <li> 
+                  <a class="padding" href="/publications"><i class='fas fa-fw fa-book-open'></i> Publications</a>
+              </li>
+          
+              <li> 
                   <a class="padding" href="https://www.kreftregisteret.no/Forskning/Janus-serumbank/"><i class='fas fa-fw fa-vial'></i> Janus Serum Bank</a>
               </li>
           
@@ -187,7 +191,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/serum/_index.en.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/sinanugur/JanusRNAdev/edit/master/content/serum/_index.en.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -243,7 +247,7 @@
         
 
 
-<p>Here you can access serum RNA dataset which contains expression information, and the traits that influence RNA expression with associated p-values and effect sizes.</p>
+<p>Here you can access serum RNA dataset which contains RNA expression tables, and the traits that influence RNA expression with associated <em>p-values</em> and <em>effect sizes</em>.</p>
 
 <section class="attachments mine">
 	<label>
@@ -271,11 +275,27 @@
 
 
 
-<p>Click <a href="https://sinanugur.shinyapps.io/healthy/" target="_blank">this link</a> to open shiny web app in a new window or you can use the frame below.</p>
+<blockquote>
+<p>Click <a href="https://sinanugur.shinyapps.io/healthy/" target="_blank">this link</a> to open shiny web app in a new window which enables access to the datatables.</p>
+</blockquote>
 
 <hr />
 
-<iframe src="https://sinanugur.shinyapps.io/healthy/" width=1200 height=600 scrolling=auto></iframe>
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span>
+        
+    	
+    	You can also use the frame below:
+    	
+    	</span>
+    </div>
+    <div class="expand-content" style="display: none;">
+        <iframe src="https://sinanugur.shinyapps.io/healthy/"></iframe>
+
+    </div>
+</div>
 
 
 <footer class=" footline" >
@@ -366,20 +386,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1550497771"></script>
-    <script src="/js/perfect-scrollbar.min.js?1550497771"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1550497771"></script>
-    <script src="/js/jquery.sticky.js?1550497771"></script>
-    <script src="/js/featherlight.min.js?1550497771"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1550497771"></script>
-    <script src="/js/highlight.pack.js?1550497771"></script>
+    <script src="/js/clipboard.min.js?1550504126"></script>
+    <script src="/js/perfect-scrollbar.min.js?1550504126"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1550504126"></script>
+    <script src="/js/jquery.sticky.js?1550504126"></script>
+    <script src="/js/featherlight.min.js?1550504126"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1550504126"></script>
+    <script src="/js/highlight.pack.js?1550504126"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1550497771"></script>
-    <script src="/js/learn.js?1550497771"></script>
-    <script src="/js/hugo-learn.js?1550497771"></script>
+    <script src="/js/modernizr.custom.71422.js?1550504126"></script>
+    <script src="/js/learn.js?1550504126"></script>
+    <script src="/js/hugo-learn.js?1550504126"></script>
 
-    <link href="/mermaid/mermaid.css?1550497771" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1550497771"></script>
+    <link href="/mermaid/mermaid.css?1550504126" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1550504126"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

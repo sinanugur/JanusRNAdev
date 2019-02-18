@@ -8,7 +8,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/sinanugur/JanusRNAdev/edit/master/"
+  editURL = "https://github.com/sinanugur/JanusRNAdev/edit/master/content/"
   description = "JanusRNA datasets"
   author = "Sinan U. Umu, PhD"
   showVisitedLinks = true
@@ -32,10 +32,10 @@ identifier = "ds"
 url = "https://github.com/sinanugur/JanusRNAdev"
 weight = 10
 
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-#url = "showcase"
-#weight = 11
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book-open'></i> Publications"
+url = "publications"
+weight = 11
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-vial'></i> Janus Serum Bank"

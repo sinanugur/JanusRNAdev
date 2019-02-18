@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JanusRNA Project on Documentation for Hugo Learn Theme</title>
+    <title>JanusRNA Project on JanusRNA project datasets</title>
     <link>/</link>
-    <description>Recent content in JanusRNA Project on Documentation for Hugo Learn Theme</description>
+    <description>Recent content in JanusRNA Project on JanusRNA project datasets</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
@@ -16,16 +16,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/credits/</guid>
-      <description> small non-coding RNA project group Our Collabrators Contributors of Webpage .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @sinanugur 12 commits   </description>
+      <description> small non-coding RNA project group Our Collabrators Contributors of Webpage .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @sinanugur 13 commits   </description>
     </item>
     
     <item>
-      <title>Showcase</title>
-      <link>/showcase/</link>
+      <title>Publications</title>
+      <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/showcase/</guid>
-      <description> TAT by OVH </description>
+      <guid>/publications/</guid>
+      <description>Our publications in JanusRNA project.
+ Sinan U. Umu, Hilde Langseth, Cecilie Bucher-Johannessen, Bastian Fromm, Andreas Keller, Eckart Meese, Marianne Lauritzen, Magnus Leithaug, Robert Lyle &amp;amp; Trine B. Rounge (2018) A comprehensive profile of circulating RNAs in human serum, RNA Biology, 15:2, 242-250, DOI: 10.1080/15476286.2017.1403003  </description>
     </item>
     
   </channel>

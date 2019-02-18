@@ -4,14 +4,14 @@
 	"title": "Serum RNA dataset",
 	"tags": [],
 	"description": "",
-	"content": "Here you can access serum RNA dataset which contains expression information, and the traits that influence RNA expression with associated p-values and effect sizes.\n  Attachments   all_rna_tables.tsv  (1569 ko)    Click this link to open shiny web app in a new window or you can use the frame below.\n "
+	"content": "Here you can access serum RNA dataset which contains RNA expression tables, and the traits that influence RNA expression with associated p-values and effect sizes.\n  Attachments   all_rna_tables.tsv  (1569 ko)     Click this link to open shiny web app in a new window which enables access to the datatables.\n   You can also use the frame below:      "
 },
 {
 	"uri": "/lung/",
 	"title": "Lung Cancer dataset",
 	"tags": [],
 	"description": "",
-	"content": " Lung Cancer results Find out how to create and organize your content quickly and intuitively.\n"
+	"content": "The lung cancer dataset will be here after publication.\n"
 },
 {
 	"uri": "/categories/",
@@ -25,7 +25,7 @@
 	"title": "Credits",
 	"tags": [],
 	"description": "",
-	"content": " small non-coding RNA project group Our Collabrators Contributors of Webpage .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @sinanugur 12 commits   "
+	"content": " small non-coding RNA project group Our Collabrators Contributors of Webpage .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @sinanugur 13 commits   "
 },
 {
 	"uri": "/",
@@ -35,11 +35,11 @@
 	"content": " JanusRNA Project Background Cancer is the third-most common cause of death worldwide, the most common cause of death in men and women under the age of 70, and the second leading cause of death overall in Norway. Cancer development involves progressive accumulation of molecular changes in the genome and the epigenome. The challenges in cancer management are to succeed in early detection, to improve diagnostic precision, to offer an appropriate therapy and follow-up, all aimed at reducing suffering and prolonging survival.\nJanusRNA is an RNA sequencing (RNA-seq) project that investigates circulating RNA profiles of human serum to detect non-invasive early detection biomarkers of cancer, including lung, coleractal, testis etc.\nThe Janus Serum Bank (JSB) cohort is a population-based cancer research biobank containing serum samples from 318628 Norwegians.\n "
 },
 {
-	"uri": "/showcase/",
-	"title": "Showcase",
+	"uri": "/publications/",
+	"title": "Publications",
 	"tags": [],
 	"description": "",
-	"content": " TAT by OVH "
+	"content": "Our publications in JanusRNA project.\n Sinan U. Umu, Hilde Langseth, Cecilie Bucher-Johannessen, Bastian Fromm, Andreas Keller, Eckart Meese, Marianne Lauritzen, Magnus Leithaug, Robert Lyle \u0026amp; Trine B. Rounge (2018) A comprehensive profile of circulating RNAs in human serum, RNA Biology, 15:2, 242-250, DOI: 10.1080/15476286.2017.1403003  "
 },
 {
 	"uri": "/tags/",
